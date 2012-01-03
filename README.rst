@@ -15,3 +15,7 @@ Supported operating systems
 [ ] Windows
 
 If your linux flavor does not provide notify-send nothing really happens.
+
+Installation
+============
+Add the package name ot the eggs part of your zope2 instance and rerun buildout.
