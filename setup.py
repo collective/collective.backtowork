@@ -4,13 +4,13 @@ import os
 version = '0.5dev'
 
 long_description = (
-    open('README.txt').read()
+    open('README.rst').read()
     + '\n' +
-    'Contributors\n'
-    '============\n'
-    + '\n' +
-    open('CONTRIBUTORS.txt').read()
-    + '\n' +
+#    'Contributors\n'
+#    '============\n'
+#    + '\n' +
+    #open('CONTRIBUTORS.txt').read() Let's do that after somebody helped
+    #+ '\n' +
     open('CHANGES.txt').read()
     + '\n')
 
