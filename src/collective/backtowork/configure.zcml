@@ -2,6 +2,7 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:grok="http://namespaces.zope.org/grok">
 
-  <grok:grok package="." />
+  <subscriber for="zope.processlifetime.IProcessStarting"
+              handler="collective.backtowork.backtowork" />
 
 </configure>
