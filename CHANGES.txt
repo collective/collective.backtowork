@@ -1,8 +1,8 @@
 Changelog
 =========
 
-0.5dev (unreleased)
--------------------
+0.5 (2012-01-03)
+----------------
 
 - Package created using zopeskel
   [do3cc]
