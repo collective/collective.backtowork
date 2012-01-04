@@ -1,11 +1,9 @@
-from five import grok
-from zope.processlifetime import IProcessStarting
 import os
 import logging
 
 logger = logging.getLogger(__name__)
 
-@grok.subscribe(IProcessStarting)
+
 def backtowork(event):
     if os.uname()[0].lower() == 'linux':
         if os.system('notify-send "Zope up and running"'):
