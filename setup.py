@@ -35,7 +35,6 @@ setup(name='collective.backtowork',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'five.grok',
           'zope.processlifetime',
           # -*- Extra requirements: -*-
       ],
