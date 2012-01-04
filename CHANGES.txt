@@ -4,7 +4,7 @@ Changelog
 0.5.1 (2012-01-04)
 ------------------
 
-- Nothing changed yet.
+- Brown bag release. Thanks to Mark van Lent for the fixes
 
 
 0.5 (2012-01-03)
