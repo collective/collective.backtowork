@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.5.2dev'
+version = '0.5.2'
 
 long_description = (
     open('README.rst').read()
@@ -38,7 +38,7 @@ setup(name='collective.backtowork',
           'zope.processlifetime',
           # -*- Extra requirements: -*-
       ],
-      setup_requires=['setuptools_git'],
+      setup_requires=['setuptools-git'],
       entry_points="""
       [z3c.autoinclude.plugin]
       target = plone

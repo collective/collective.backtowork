@@ -1,16 +1,18 @@
 Changelog
 =========
 
-0.5.2 (unreleased)
+0.5.2 (2012-01-04)
 ------------------
 
-- Nothing changed yet.
+- fixed wrong setup_requires statement 
+  [do3cc]
 
 
 0.5.1 (2012-01-04)
 ------------------
 
-- Brown bag release. Thanks to Mark van Lent for the fixes
+- Brown paper bag release. Thanks to Mark van Lent for the fixes
+  [markvh, do3cc]
 
 
 0.5 (2012-01-03)
