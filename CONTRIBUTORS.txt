@@ -1,1 +1,2 @@
 - Patrick Gerken, Original Author
+- Laurent Lasudry, Mac OS support

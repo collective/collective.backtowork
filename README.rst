@@ -10,11 +10,22 @@ does not want to watch the system starting up.
 
 Supported operating systems
 ===========================
-[x] Linux (via notify-send)
-[ ] Mac
-[ ] Windows
+ [x] Linux (via ``notify-send``)
+ 
+ [x] Mac (via ``growlnotify``)
+ 
+ [ ] Windows
 
-If your linux flavor does not provide notify-send nothing really happens.
+Linux
+-----
+If your linux flavor does not provide ``notify-send`` nothing really happens.
+
+Mac OS
+------
+You need `Growl notification system <http://growl.info>`_ and ``growlnotify``
+extra script. Otherwise, nothing will happen.
+See `official instructions <http://growl.info/extras.php#growlnotify>`_ for
+installing growlnotify script.
 
 Installation
 ============
