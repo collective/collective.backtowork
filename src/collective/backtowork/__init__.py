@@ -11,10 +11,9 @@ def backtowork(event):
             logger.warning("Could not send notification. Is the CLI tool"
                            "notify-send available?")
     elif osname == 'darwin':
-        os.environ['G_TITLE'] = 'Zope'
-        if os.system('growlnotify "Zope is up and running !"'):
-            logger.warning("Could not send notification. Is the CLI tool"
-                           "growlnotify available?")
+        if os.system('growlnotify -t "Zope is up and running !" -m "You can go back to work ..."'):
+            logger.warning("Could not send notification. Are growl and"
+                           "growlnotify tool available?")
     else:
         logger.warning("Sorry, no notification support for your OS yet. "
                        "Care to add it?")
