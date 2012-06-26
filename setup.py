@@ -38,7 +38,6 @@ setup(name='collective.backtowork',
           'zope.processlifetime',
           # -*- Extra requirements: -*-
       ],
-      setup_requires=['setuptools-git'],
       entry_points="""
       [z3c.autoinclude.plugin]
       target = plone
