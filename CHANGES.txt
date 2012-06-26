@@ -4,7 +4,8 @@ Changelog
 0.5.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Added Mac Support with growl
+  [Laurent Lasudry]
 
 
 0.5.2 (2012-01-04)
