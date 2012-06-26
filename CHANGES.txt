@@ -4,7 +4,8 @@ Changelog
 0.6.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- fixed Manifest.in
+  [do3cc]
 
 
 0.6.0 (2012-06-26)
