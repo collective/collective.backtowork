@@ -4,7 +4,8 @@ Changelog
 0.6.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- another attempt at building a working egg.
+  [pbauer]
 
 
 0.6.2 (2012-06-26)
