@@ -1,10 +1,12 @@
 Changelog
 =========
 
-0.6.4 (unreleased)
+0.6.4 (2012-08-02)
 ------------------
 
-- Nothing changed yet.
+- Add support for notification centre in MacOS 10.8 via 
+  https://github.com/alloy/terminal-notifier/downloads
+  [pbauer]
 
 
 0.6.3 (2012-08-02)
